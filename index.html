@@ -4,19 +4,38 @@
     <meta charset="UTF-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <title>Casa Amapola</title>
+    <link rel="stylesheet" href="./styles.css" />
   </head>
   <body>
     <section id="home__page">
-      <nav>
-        <div class="logo__wrapper">
-            <figure class="logo">
-                <a href="#home__page">
-                    <img src="logo placeholder.png" alt="logo">
-                </a>
-            </figure>
+      <nav class="navbar">
+        <div class="hamburger" id="hamburger">☰</div>
 
-        </div>
+        <ul class="nav-links" id="nav-links">
+          <li><a href="#home">Home</a></li>
+          <li><a href="#about">About</a></li>
+          <li><a href="#rooms">Rooms</a></li>
+        </ul>
+
+        <script>
+          const hamburger = document.getElementById("hamburger");
+          const navLinks = document.getElementById("nav-links");
+
+          hamburger.addEventListener("click", () => {
+            navLinks.classList.toggle("active");
+          });
+        </script>
+
+        <figure>
+          <button class="book__button">Book</button>
+        </figure>
       </nav>
+
+      <figure class="logo__wrapper">
+        <a href="#home__page">
+          <img src="logo placeholder.png" alt="logo" class="logo" />
+        </a>
+      </figure>
     </section>
   </body>
 </html>
