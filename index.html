@@ -8,34 +8,42 @@
   </head>
   <body>
     <section id="home__page">
-      <nav class="navbar">
-        <div class="hamburger" id="hamburger">☰</div>
-
+      <nav class="nav__bar">
         <ul class="nav-links" id="nav-links">
-          <li><a href="#home">Home</a></li>
-          <li><a href="#about">About</a></li>
-          <li><a href="#rooms">Rooms</a></li>
-        </ul>
-
-        <script>
-          const hamburger = document.getElementById("hamburger");
-          const navLinks = document.getElementById("nav-links");
-
-          hamburger.addEventListener("click", () => {
-            navLinks.classList.toggle("active");
-          });
-        </script>
-
-        <figure>
+          <li><a href="">About</a></li>
+          <li><a href="">Rooms</a></li>
+          <li><a href="">Gallery</a></li>
+          <li><a href="">Activities</a></li>
+          <li><a href="">Contacts</a></li>
           <button class="book__button">Book</button>
-        </figure>
+        </ul>
       </nav>
 
       <figure class="logo__wrapper">
         <a href="#home__page">
-          <img src="logo placeholder.png" alt="logo" class="logo" />
+          <img
+            src="./Casa-Amapola-logos/logo-white.png"
+            alt="logo"
+            class="logo"
+          />
         </a>
       </figure>
+
+      <div id="landing">
+        <div class="container">
+          <div class="row">
+            <div class="landing__description">
+              <h1 class="landing__title">Your Home Away From Home</h1>
+              <p class="landing__para">
+                Lorem ipsum dolor, sit amet consectetur adipisicing elit. Earum
+                quam eligendi tempora fugit, consequuntur autem ipsa veniam,
+                molestias labore, tempore maiores magnam sit aut iusto eum cum?
+                Doloribus, officiis numquam.
+              </p>
+            </div>
+          </div>
+        </div>
+      </div>
     </section>
   </body>
 </html>
