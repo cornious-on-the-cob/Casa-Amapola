@@ -167,3 +167,306 @@ button {
   color: #fff1d0;
   transition: all 300ms ease;
 }
+
+
+/* 
+
+Amapola
+
+*/
+
+img {
+  max-width: 100%;
+  height: auto;
+  transition: all 0.2s linear;
+}
+
+.amapola__1 {
+  position: absolute;
+  width: 700px;
+  top: -10vh;
+  left: -40vh;
+  rotate: 40deg;
+  z-index: 2;
+}
+
+.amapola__2 {
+  position: absolute;
+  width: 500px;
+  top: 60vh;
+  left: 120vh;
+  rotate: 250deg;
+  z-index: 2;
+}
+
+.amapola__3 {
+  position: absolute;
+  width: 300px;
+  top: 10vh;
+  left: 150vh;
+  rotate: 150deg;
+  z-index: 2;
+}
+
+.amapola__4 {
+  position: absolute;
+  width: 250px;
+  top: 160vh;
+  left: 75vh;
+  rotate: 300deg;
+  z-index: 2;
+}
+
+.leaf__1 {
+  position: absolute;
+  width: 220px;
+  top: 165vh;
+  left: 65vh;
+  rotate: 250deg;
+  z-index: 1;
+}
+
+.leaf__2 {
+  position: absolute;
+  width: 220px;
+  top: 155vh;
+  left: 70vh;
+  rotate: 290deg;
+  z-index: 1;
+}
+
+.leaf__3 {
+  position: absolute;
+  top: -10vh;
+  left: -70vh;
+  rotate: 30deg;
+  z-index: 1;
+}
+
+.leaf__4 {
+  position: absolute;
+  width: 500px;
+  top: 40vh;
+  left: 120vh;
+  rotate: 310deg;
+  z-index: 1;
+}
+
+/*
+
+@media
+
+*/
+
+@media screen and (max-width: 1080px) {
+  .amapola__1 {
+    position: absolute;
+    width: 500px;
+    top: 40vh;
+    left: -10vh;
+    rotate: 40deg;
+    z-index: 2;
+  }
+
+  .leaf__3 {
+    position: absolute;
+    width: 500px;
+    top: 60vh;
+    left: -5vh;
+    rotate: 130deg;
+    z-index: 1;
+  }
+
+  .amapola__2 {
+    position: absolute;
+    width: 500px;
+    top: 90vh;
+    left: 90vh;
+    rotate: 250deg;
+    z-index: 2;
+  }
+
+  .leaf__4 {
+    position: absolute;
+    width: 500px;
+    top: 80vh;
+    left: 90vh;
+    rotate: 310deg;
+    z-index: 1;
+  }
+
+  .amapola__3 {
+    position: absolute;
+    width: 400px;
+    top: 200vh;
+    left: 20vh;
+    rotate: 150deg;
+    z-index: 1;
+  }
+
+  .amapola__4 {
+    position: absolute;
+    width: 250px;
+    top: 160vh;
+    left: 75vh;
+    rotate: 300deg;
+    z-index: 2;
+  }
+
+  .leaf__1 {
+    position: absolute;
+    width: 220px;
+    top: 165vh;
+    left: 65vh;
+    rotate: 250deg;
+    z-index: 1;
+  }
+
+  .leaf__2 {
+    position: absolute;
+    width: 220px;
+    top: 155vh;
+    left: 70vh;
+    rotate: 290deg;
+    z-index: 1;
+  }
+}
+
+@media screen and (max-width: 768px) {
+  .amapola__1 {
+    position: absolute;
+    width: 500px;
+    top: 50vh;
+    left: -20vh;
+    rotate: 40deg;
+    z-index: 2;
+  }
+
+  .leaf__3 {
+    position: absolute;
+    width: 500px;
+    top: 60vh;
+    left: -25vh;
+    rotate: 130deg;
+    z-index: 1;
+  }
+
+  .amapola__2 {
+    position: absolute;
+    width: 500px;
+    top: 90vh;
+    left: 60vh;
+    rotate: 250deg;
+    z-index: 2;
+  }
+
+  .leaf__4 {
+    position: absolute;
+    width: 500px;
+    top: 80vh;
+    left: 70vh;
+    rotate: 310deg;
+    z-index: 1;
+  }
+
+  .amapola__3 {
+    position: absolute;
+    width: 400px;
+    top: 210vh;
+    left: -20vh;
+    rotate: 150deg;
+    z-index: 1;
+  }
+
+  .amapola__4 {
+    position: absolute;
+    width: 250px;
+    top: 170vh;
+    left: 70vh;
+    rotate: 300deg;
+    z-index: 2;
+  }
+
+  .leaf__1 {
+    position: absolute;
+    width: 220px;
+    top: 175vh;
+    left: 65vh;
+    rotate: 250deg;
+    z-index: 1;
+  }
+
+  .leaf__2 {
+    position: absolute;
+    width: 220px;
+    top: 165vh;
+    left: 70vh;
+    rotate: 290deg;
+    z-index: 1;
+  }
+}
+
+@media screen and (max-width: 414px) {
+  .amapola__1 {
+    position: absolute;
+    width: 500px;
+    top: 50vh;
+    left: -30vh;
+    rotate: 40deg;
+    z-index: 2;
+  }
+
+  .leaf__3 {
+    position: absolute;
+    width: 500px;
+    top: 60vh;
+    left: -25vh;
+    rotate: 130deg;
+    z-index: 1;
+  }
+
+  .amapola__2 {
+    position: absolute;
+    width: 500px;
+    top: 90vh;
+    left: 35vh;
+    rotate: 250deg;
+    z-index: 2;
+  }
+
+  .leaf__4 {
+    position: absolute;
+    width: 500px;
+    top: 80vh;
+    left: 35vh;
+    rotate: 310deg;
+    z-index: 1;
+  }
+
+  .amapola__3 {
+    position: absolute;
+    width: 400px;
+    top: 210vh;
+    left: -35vh;
+    rotate: 150deg;
+    z-index: 1;
+  }
+
+  .amapola__4 {
+    position: absolute;
+    width: 250px;
+    top: 170vh;
+    left: 30vh;
+    rotate: 300deg;
+    z-index: 2;
+  }
+
+  .leaf__2 {
+    position: absolute;
+    width: 220px;
+    top: 165vh;
+    left:35vh;
+    rotate: 340deg;
+    z-index: 1;
+  }
+}
