@@ -1,0 +1,185 @@
+@import url("https://fonts.googleapis.com/css2?family=Inter:ital,opsz,wght@0,14..32,100..900;1,14..32,100..900&family=Lobster&family=Roboto:wght@100..900&display=swap");
+
+* {
+  font-family: "Lato", sans-serif;
+  padding: 0;
+  margin: 0;
+  box-sizing: border-box;
+}
+
+h1,
+h2,
+h3,
+h4,
+h5,
+h6,
+span {
+  color: #f67280;
+  text-align: center;
+  line-height: 1.25;
+}
+
+html {
+  scroll-behavior: smooth;
+}
+
+h1 {
+  font-size: 36px;
+}
+
+p {
+  line-height: 1.5;
+  font-size: 16px;
+  color: #f67280;
+}
+
+li {
+  list-style: none;
+}
+
+a {
+  text-decoration: none;
+  position: relative;
+}
+
+.section__title {
+  position: relative;
+  font-family: "Lobster", sans-serif;
+  font-size: 40px;
+  z-index: 2;
+  margin-bottom: 36px;
+}
+
+.container {
+  padding: 50px 0;
+}
+
+.row {
+  width: 100%;
+  max-width: 1200px;
+  margin: 0 auto;
+  padding: 0 24px;
+}
+
+.text--green {
+  color: #2c6e49;
+}
+
+.text--yellow {
+  color: #f2c14e;
+}
+
+.text--coral {
+  color: #f67280;
+}
+
+.text--blue {
+  color: #4a8fe7;
+}
+
+body {
+  background-color: #fcd3d7;
+}
+
+/* 
+
+Logo
+
+*/
+
+.logo__wrapper {
+  text-align: center;
+  margin-top: 24px;
+}
+
+.logo {
+  width: 200px;
+  cursor: pointer;
+}
+
+/* 
+
+Description
+
+*/
+
+.description {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+
+.para__wrapper {
+  width: 50%;
+  text-align: center;
+  font-weight: bold;
+}
+
+/* 
+
+Pictues
+
+*/
+
+#images {
+  margin-top: -50px;
+}
+
+.images__wrapper {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+  align-items: center;
+}
+
+.img__wrap {
+  width: 500px;
+  margin: 16px;
+}
+
+.img {
+  border-radius: 30px;
+  width: 100%;
+  max-height: 374.24px;
+  box-shadow: 10px 10px 20px #feafb7;
+}
+
+.sink {
+    object-fit: cover;
+}
+
+/* 
+
+Book Button
+
+*/
+
+#book {
+    margin-top: -50px;
+}
+
+button {
+  cursor: pointer;
+}
+
+.btn__wrapper {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.btn {
+  border: none;
+  border-radius: 30px;
+  padding: 24px;
+  box-shadow: 5px 5px 20px #feafb7;
+  font-weight: bold;
+  color: #012951;
+}
+
+.btn:hover {
+  background-color: #c94754;
+  color: #fcd3d7;
+  transition: all 300ms ease;
+}
