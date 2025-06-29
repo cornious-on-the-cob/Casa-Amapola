@@ -41,6 +41,14 @@ a {
   position: relative;
 }
 
+.section__title {
+  position: relative;
+  font-family: "Lobster", sans-serif;
+  font-size: 40px;
+  z-index: 2;
+  margin-bottom: 36px;
+}
+
 .container {
   padding: 50px 0;
 }
@@ -214,13 +222,6 @@ About Us
   align-items: center;
 }
 
-.about__us--title {
-  position: relative;
-  font-family: "Lobster", sans-serif;
-  font-size: 40px;
-  z-index: 2;
-}
-
 .about__us--img--wrapper {
   width: 50%;
 }
@@ -253,6 +254,144 @@ About Us
   top: 0px;
   left: 0px;
   z-index: 1;
+}
+
+
+/*
+
+Room
+
+*/
+
+.rooms__container {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+  align-items: center;
+}
+
+.room {
+  border: 1px solid #093b7c;
+  border-radius: 30px;
+  width: calc(100% / 3);
+  margin: 24px;
+  padding: 0 16px;
+}
+
+.room__top {
+  padding: 16px;
+}
+
+.room__title {
+  color: whitesmoke;
+}
+
+.room__bottom {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  padding: 16px;
+}
+
+.room__img {
+  width: 100%;
+  border-radius: 30px;
+}
+
+.coral__bed {
+  margin: 13px 0;
+}
+
+.blue__room {
+  background-color: #88b7f5;
+}
+
+.green__room {
+  background-color: #2c6e49;
+}
+
+.yellow__room {
+  background-color: #f2c14e;
+}
+
+.coral__room {
+  background-color: #f67280;
+}
+
+.top__apartment {
+  background-color: #a11825;
+}
+
+.bottom__apartment {
+  background-color: rgba(255, 68, 0, 0.79);
+}
+
+.room__button {
+  border: none;
+  padding: 10px;
+  border-radius: 30px;
+  font-weight: bold;
+  cursor: pointer;
+}
+
+.blue__button {
+  box-shadow: 5px 5px 20px #4a6d9a;
+}
+
+.green__button {
+  box-shadow: 5px 5px 20px #1b422b;
+}
+
+.yellow__button {
+  box-shadow: 5px 5px 20px #c39324;
+}
+
+.coral__button {
+  box-shadow: 5px 5px 20px #f75868;
+}
+
+.top__a--button {
+  box-shadow: 5px 5px 20px #6f0c16;
+}
+
+.bottom__a--button {
+  box-shadow: 5px 5px 20px rgb(159, 44, 2);
+}
+
+.blue__button:hover {
+  background-color: #093b7c;
+  color: #bfdbff;
+  transition: all 300ms ease;
+}
+
+.green__button:hover {
+  background-color: #1b422b;
+  color: #bfffdd;
+  transition: all 300ms ease;
+}
+
+.yellow__button:hover {
+  background-color: #d69b12;
+  color: #e0ffbf;
+  transition: all 300ms ease;
+}
+
+.coral__button:hover {
+  background-color: #c94754;
+  color: #ffbff3;
+  transition: all 300ms ease;
+}
+
+.top__a--button:hover {
+  background-color: #6f0c16;
+  color: #e28d8d;
+  transition: all 300ms ease;
+}
+
+.bottom__a--button:hover {
+  background-color: rgb(184, 52, 3);
+  color: #fcdaad;
+  transition: all 300ms ease;
 }
 
 
