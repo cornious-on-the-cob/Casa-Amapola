@@ -14,7 +14,6 @@ h4,
 h5,
 h6,
 span {
-  color: #1d4e32;
   text-align: center;
   line-height: 1.25;
 }
@@ -30,7 +29,6 @@ h1 {
 p {
   line-height: 1.5;
   font-size: 16px;
-  color: #1d4e32;
 }
 
 li {
@@ -61,8 +59,20 @@ a {
   padding: 0 24px;
 }
 
-body {
+.bodyblue {
+  background-color: lightblue;
+}
+
+.bodyyellow {
+  background-color: #fff1d0;
+}
+
+.bodygreen {
   background-color: #d7ffe9;
+}
+
+.bodycoral {
+  background-color: #fcd3d7;
 }
 
 /* 
@@ -92,12 +102,34 @@ Description
   flex-direction: column;
   justify-content: center;
   align-items: center;
+  z-index: 3;
 }
 
 .para__wrapper {
   width: 50%;
   text-align: center;
   font-weight: bold;
+}
+
+.section__para {
+  position: relative;
+  z-index: 3;
+}
+
+.blue {
+  color: #012951;
+}
+
+.yellow {
+  color: #ffc53d;
+}
+
+.green {
+  color: #1d4e32;
+}
+
+.coral {
+  color: #f67280;
 }
 
 /* 
@@ -125,12 +157,29 @@ Pictues
 .img {
   border-radius: 30px;
   width: 100%;
+}
+
+.bathroom {
+  object-fit: cover;
+}
+
+.blue__img {
+  box-shadow: 10px 10px 20px rgb(114, 173, 193);
+}
+
+.yellow__img {
+  max-height: 374.24px;
+  box-shadow: 10px 10px 20px #ffdc8b;
+}
+
+.green__img {
   max-height: 374.24px;
   box-shadow: 10px 10px 20px #5c9474;
 }
 
-.bathroom {
-    object-fit: cover;
+.coral__img {
+  max-height: 374.24px;
+  box-shadow: 10px 10px 20px #feafb7;
 }
 
 /* 
@@ -140,7 +189,7 @@ Book Button
 */
 
 #book {
-    margin-top: -50px;
+  margin-top: -50px;
 }
 
 button {
@@ -148,23 +197,59 @@ button {
 }
 
 .btn__wrapper {
-    display: flex;
-    justify-content: center;
-    align-items: center;
+  display: flex;
+  justify-content: center;
+  align-items: center;
 }
 
 .btn {
   border: none;
   border-radius: 30px;
   padding: 24px;
-  box-shadow: 5px 5px 20px #5c9474;
   font-weight: bold;
+}
+
+.blue__btn {
+  box-shadow: 5px 5px 20px rgb(137, 188, 205);
   color: #012951;
 }
 
-.btn:hover {
+.blue__btn:hover {
+  background-color: #093b7c;
+  color: #bfdbff;
+  transition: all 300ms ease;
+}
+
+.yellow__btn {
+  box-shadow: 5px 5px 20px #ffdc8b;
+  color: #d69b12;
+}
+
+.yellow__btn:hover {
+  background-color: #d69b12;
+  color: #fff1d0;
+  transition: all 300ms ease;
+}
+
+.green__btn {
+  box-shadow: 5px 5px 20px #5c9474;
+  color: #1b422b;
+}
+
+.green__btn:hover {
   background-color: #1b422b;
   color: #bfffdd;
+  transition: all 300ms ease;
+}
+
+.coral__btn {
+  box-shadow: 5px 5px 20px #feafb7;
+  color: #c94754;
+}
+
+.coral__btn:hover {
+  background-color: #c94754;
+  color: #fcd3d7;
   transition: all 300ms ease;
 }
 
@@ -464,7 +549,7 @@ img {
     position: absolute;
     width: 220px;
     top: 165vh;
-    left:35vh;
+    left: 35vh;
     rotate: 340deg;
     z-index: 1;
   }
