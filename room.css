@@ -75,6 +75,10 @@ a {
   background-color: #fcd3d7;
 }
 
+.bodypurple {
+  background-color: rgb(234, 213, 255);
+}
+
 /* 
 
 Logo
@@ -132,6 +136,10 @@ Description
   color: #f67280;
 }
 
+.purple {
+  color: rgb(97, 0, 139);
+}
+
 /* 
 
 Pictues
@@ -180,6 +188,10 @@ Pictues
 .coral__img {
   max-height: 374.24px;
   box-shadow: 10px 10px 20px #feafb7;
+}
+
+.purple__img {
+  box-shadow: 10px 10px 20px rgb(207, 152, 255);
 }
 
 /* 
@@ -250,6 +262,17 @@ button {
 .coral__btn:hover {
   background-color: #c94754;
   color: #fcd3d7;
+  transition: all 300ms ease;
+}
+
+.purple__btn {
+  box-shadow: 10px 10px 20px rgb(207, 152, 255);
+  color: rgb(97, 0, 139);
+}
+
+.purple__btn:hover {
+  background-color: rgb(97, 0, 139);
+  color: rgb(207, 152, 255);
   transition: all 300ms ease;
 }
 
