@@ -246,6 +246,19 @@ Room
 
 */
 
+#rooms {
+  position: relative;
+}
+
+.room__wave {
+  position: relative;
+  position: absolute;
+  width: 100%;
+  top: 0px;
+  left: 0px;
+  z-index: 1;
+}
+
 .rooms__container {
   display: flex;
   flex-wrap: wrap;
