@@ -533,7 +533,9 @@ Contact
 */
 
 #contact {
+  position: relative;
   background-color: #ffe9b6;
+  overflow: hidden;
 }
 
 .contact__container {
@@ -552,6 +554,20 @@ Contact
 .fa-solid,
 .fa-brands {
   font-size: 30px;
+}
+
+.sun1 {
+  position: absolute;
+  width: 300px;
+  top: -3vh;
+  left: -20vh;
+}
+
+.sun2 {
+  position: absolute;
+  width: 300px;
+  top: 20vh;
+  left: 90vh;
 }
 
 /*
@@ -600,8 +616,8 @@ i:hover {
 
 .link__hover-effect {
   position: relative;
-  display: inline-block; /* This fixes underline positioning */
-  padding-bottom: 4px; /* Space for underline */
+  display: inline-block;
+  padding-bottom: 4px;
 }
 
 .link__hover-effect::after {
@@ -742,6 +758,12 @@ i:hover {
   .activities__para {
     font-size: 15px;
   }
+  .sun2 {
+  position: absolute;
+  width: 300px;
+  top: 42.5vh;
+  left: 20vh;
+}
 }
 
 
@@ -761,4 +783,16 @@ i:hover {
   .slider__wrapper {
     max-width: 350px;
   }
+  .leaf__border {
+    left: -690px;
+  }
+  .leaf__border2 {
+    right: -710px;
+  }
+  .sun1 {
+  position: absolute;
+  width: 300px;
+  top: -3vh;
+  left: -27vh;
+}
 }
