@@ -640,9 +640,26 @@ i:hover {
   .leaf__border2 {
     right: -610px;
   }
+  .about__us--description {
+    margin: 36px 0;
+    width: 70%;
+  }
+  .about__us--img--wrapper {
+    width: 50%;
+  }
 }
 
 @media (max-width: 768px) {
+  #activities {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+  }
+  #gallery {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+  }
   .nav__link {
     display: none;
   }
@@ -666,6 +683,24 @@ i:hover {
     margin: 36px 0;
     width: 80%;
   }
+  .logo {
+    width: 150px;
+  }
+  .location {
+    margin: 0 auto;
+  }
+  .activities__para {
+    font-size: 16px;
+  }
+  .contact__container {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+  }
+  .contact {
+    margin: 24px 0;
+  }
 }
 
 @media (max-width: 576px) {
@@ -676,6 +711,9 @@ i:hover {
   .about__us--img--wrapper {
     width: 80%;
   }
+  .about__us--para {
+    font-size: 15px;
+  }
   .rooms__container {
     display: flex;
     flex-direction: column;
@@ -683,14 +721,14 @@ i:hover {
   .room {
     width: 80%;
   }
-  .leaf__border {
-    display: none;
+ .leaf__border {
+    left: -680px;
   }
   .leaf__border2 {
-    display: none;
+    right: -700px;
   }
   .slider__wrapper {
-    max-width: 20rem;
+    max-width: 500px;
   }
   .landing__title {
     font-size: 35px;
@@ -700,5 +738,27 @@ i:hover {
     font-size: 15px;
     padding: 0;
     width: 80%;
+  }
+  .activities__para {
+    font-size: 15px;
+  }
+}
+
+
+@media(max-width: 375px) {
+  .activities__para {
+    margin: 24px 16px;
+  }
+  .topo {
+    width: 80%;
+  }
+  .location {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+  }
+  .slider__wrapper {
+    max-width: 350px;
   }
 }
