@@ -68,6 +68,18 @@ a {
   color: #052b5c;
 }
 
+.pink {
+  color: #c94754;
+}
+
+.green {
+  color: #073f1e;
+}
+
+.yellow {
+  color: #e2a109;
+}
+
 /* 
 
 
@@ -282,6 +294,7 @@ Room
   border-radius: 30px;
   margin: 24px;
   padding: 0 16px;
+  position: relative;
 }
 
 .room__top {
@@ -338,6 +351,8 @@ Room
   border-radius: 30px;
   font-weight: bold;
   cursor: pointer;
+  z-index: 3;
+  position: relative;
 }
 
 .blue__button {
@@ -459,10 +474,6 @@ Gallery
   opacity: 100%;
 }
 
-.green {
-  color: #1b422b;
-}
-
 .leaf__border {
   position: absolute;
   rotate: 90deg;
@@ -480,6 +491,11 @@ Gallery
 Activities
 
 */
+
+#activities {
+  background-color: #ffcacf;
+  height: 100vh;
+}
 
 .location {
   display: flex;
@@ -504,9 +520,36 @@ Activities
 }
 
 .activities__para {
-  width: 100%;
+  width: 90%;
+  font-size: 18px;
   text-align: center;
   margin-left: 36px;
+}
+
+/*
+
+Contact
+
+*/
+
+#contact {
+  background-color: #ffe9b6;
+}
+
+.contact__container {
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+}
+
+.contact {
+  display: flex;
+  align-items: center;
+  gap: 16px;
+}
+
+.fa-solid {
+  font-size: 30px;
 }
 
 /*
@@ -638,7 +681,7 @@ i:hover {
   .room {
     width: 80%;
   }
-   .leaf__border {
+  .leaf__border {
     display: none;
   }
   .leaf__border2 {
