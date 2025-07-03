@@ -14,7 +14,6 @@ h4,
 h5,
 h6,
 span {
-  color: #102840;
   text-align: center;
   line-height: 1.25;
 }
@@ -63,6 +62,10 @@ a {
   max-width: 1200px;
   margin: 0 auto;
   padding: 0 24px;
+}
+
+.blue {
+  color: #052b5c;
 }
 
 /* 
@@ -470,6 +473,40 @@ Gallery
   position: absolute;
   rotate: -80deg;
   right: -550px;
+}
+
+/*
+
+Activities
+
+*/
+
+.location {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  margin: 0 36px;
+}
+
+.activities__img--wrapper {
+  position: relative;
+}
+
+.topo {
+  border-radius: 30px;
+  width: 50%;
+}
+
+.fa-map-pin {
+  position: absolute;
+  left: 225px;
+  top: 220px;
+}
+
+.activities__para {
+  width: 100%;
+  text-align: center;
+  margin-left: 36px;
 }
 
 /*
