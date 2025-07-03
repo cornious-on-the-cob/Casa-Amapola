@@ -540,6 +540,7 @@ Contact
   display: flex;
   justify-content: space-around;
   align-items: center;
+  margin: 24px 0;
 }
 
 .contact {
@@ -548,7 +549,8 @@ Contact
   gap: 16px;
 }
 
-.fa-solid {
+.fa-solid,
+.fa-brands {
   font-size: 30px;
 }
 
